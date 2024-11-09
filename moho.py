@@ -6,7 +6,7 @@ cv.imshow("orginal image ",img)
 kernal=np.ones((5,5),dtype='uint8')
 
 ersion=cv.erode(img,kernel=kernal,iterations=2)
-cv.imshow("test",ersion)
+cv.imshow("ersion",ersion)
 dilate=cv.dilate(img,kernel=kernal,iterations=1)
 cv.imshow("dilate",dilate)
 
